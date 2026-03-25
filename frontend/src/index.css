@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  color: #e2e8f0;
+}
+
+.panel {
+  @apply bg-drdo-panel border border-cyan-500/20 rounded-xl shadow-lg shadow-cyan-500/10;
+}
